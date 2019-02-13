@@ -1,9 +1,0 @@
-Put the phils folder in the startup folder (folder hidden, not contents)
-Put hydra.vbs on the desktop
-Make shortcut to hydra.vbs in startup folder then hide hydra.vbs (not shortcut)
-Restart computer and enjoy!
-
-Note:
-To get to startup folder, press windows + r, then type in "shell:startup" and press enter
-To hid files, right click > properties > check "hidden"
-To make a shortcut, right click > send to > desktop (create shortcut)
