@@ -8,6 +8,7 @@ A virus that turns Phil Swift into a hydra
 4. Restart computer and enjoy!
 
 ### Notes:
-To get to startup folder, press windows + r, then type in "shell:startup" and press enter
-To hide files, right click > properties > check "hidden"
-To make a shortcut, right click > send to > desktop (create shortcut)
+* To get to startup folder, press windows + r, then type in "shell:startup" and press enter, 
+or navigate to _C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup_
+* To hide files, right click > properties > check "hidden"
+* To make a shortcut, right click > send to > desktop (create shortcut)
