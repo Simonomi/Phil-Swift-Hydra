@@ -7,8 +7,8 @@ A virus that turns Phil Swift into a hydra. In other words, there's a photo of p
 
 ### Notes:
 * The image used is stored at _C:\ProgramData\Hydra_ once the program is run, feel free to change it!
+* When recompiling, delete both _.exe_'s, compile _hydra.ahk_, then _Installer.ahk_
 * Current update/bug fix list:
-	* Change it to work by having two files, one program and one installer, where the installer copies and runs the program to make it easier to understand and compile
 	* Add variety update, so instead of only one image, they are randomly generated
 
 # 

