@@ -1,4 +1,4 @@
-# Phil Swift hydra
+# Phil Swift Hydra
 A virus that turns Phil Swift into a hydra. In other words, there's a photo of phil swift on your desktop, and every time you delete it, it multiplies. There are two versions, a visual basic version, and an executable (.exe). The visual basic has multiple photos of Phil Swift, while the executable has one (for now), but the executable is easier to use.
 
 ## Instructions for executable
