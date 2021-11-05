@@ -18,16 +18,16 @@ Dim phils,tempphils,exists,max,min,homefolder
 homefolder = objShell.ExpandEnvironmentStrings("%USERPROFILE%")
 phils = 1
 min = 1
-max = 53
+max = 30
 
 tempphils = 1
 While tempphils < 1000
-  If FileExists("Phil Swift" + CStr(tempphils) + ".jpg") Then
-	fso.DeleteFile "Phil Swift" + CStr(tempphils) + ".jpg"
+  If FileExists("Phil Swift " + CStr(tempphils) + ".jpg") Then
+	fso.DeleteFile "Phil Swift " + CStr(tempphils) + ".jpg"
   End If
   tempphils = tempphils + 1
 Wend
-fso.CopyFile CStr(homefolder) + "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\phils\Phil27.jpg", "Phil Swift1.jpg"
+fso.CopyFile CStr(homefolder) + "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\phils\phil1.jpg", "Phil Swift 1.jpg"
 
 
 
@@ -40,7 +40,7 @@ exists = 0
 ' this sets exists to how many phils exist
 While tempphils < phils
   tempphils = tempphils + 1
-  If FileExists("Phil Swift" + CStr(tempphils) + ".jpg") Then
+  If FileExists("Phil Swift " + CStr(tempphils) + ".jpg") Then
     exists = exists + 1
   End If
 Wend
@@ -51,7 +51,7 @@ If not exists = phils Then
   tempphils = 1
   While tempphils < phils + 1
 	Randomize
-    fso.CopyFile CStr(homefolder) + "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\phils\Phil" + CStr(Int((max-min+1)*Rnd+min)) + ".jpg", "Phil Swift" + CStr(tempphils) + ".jpg"
+    fso.CopyFile CStr(homefolder) + "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\phils\phil" + CStr(Int((max-min+1)*Rnd+min)) + ".jpg", "Phil Swift " + CStr(tempphils) + ".jpg"
 	tempphils = tempphils + 1
   Wend
   objShell.SendKeys "{F5}"
